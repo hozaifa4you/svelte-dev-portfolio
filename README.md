@@ -1,38 +1,25 @@
-# sv
+Task 1: Get the book list available in the shop. Upload the task 1 screenshot: 1-getallbooks.png.
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+Task 2: Get the books based on ISBN. Upload the task 2 screenshot: 2-gedetailsISBN.png.
 
-## Creating a project
+Task 3: Get all books by the author. Upload the task 3’s screenshot: 3-getbooksbyauthor.png.
 
-If you're seeing this, you've probably already done this step. Congrats!
+Task 4: Get all books based on title. Upload the task 4’s screenshot: 4-getbooksbytitle.png.
 
-```sh
-# create a new project in the current directory
-npx sv create
+Task 5: Get a book review. Upload the task 5’s screenshot: 5-getbookreview.png.
 
-# create a new project in my-app
-npx sv create my-app
-```
+Task 6: Register new user. Upload the task 6’s screenshot: 6-register.png. (3 pts)
 
-## Developing
+Task 7: Login as a registered user. Upload the task 7’s screenshot: 7-login.png. (3 pts)
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+Task 8: Add/modify a book review. Upload the task 8’s screenshot: 8-reviewadded.png.
 
-```sh
-npm run dev
+Task 9: Delete the book review that was earlier added by that particular user. Upload the task 9 screenshot: 9-deletereview.png.
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+Task 10: Get all books using an async callback function.
 
-## Building
+Task 11: Search by ISBN – Using Promises
 
-To create a production version of your app:
+Task 12: Search by Author. (2pts)
 
-```sh
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+Task 13: Search by title.
