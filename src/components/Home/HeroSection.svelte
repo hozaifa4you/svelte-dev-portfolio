@@ -1,1 +1,0 @@
-<section>Hero section</section>

@@ -1,1 +1,1 @@
-export { default as HomeSection } from '../components/Home/HeroSection.svelte';
+export { default as HomeSection } from './sections/HeroSection.svelte';
