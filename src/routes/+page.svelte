@@ -1,5 +1,6 @@
 <script>
 	import { HomeSection } from '$components';
+	import AboutMeSection from '$components/sections/AboutMeSection.svelte';
 </script>
 
 <svelte:head>
@@ -7,3 +8,4 @@
 </svelte:head>
 
 <HomeSection />
+<AboutMeSection />
