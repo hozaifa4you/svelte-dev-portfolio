@@ -1,4 +1,6 @@
-export { default as HomeSection } from './sections/HeroSection.svelte';
+export { default as HeroSection } from './sections/HeroSection.svelte';
+export { default as AboutMeSection } from './sections/AboutMeSection.svelte';
+export { default as WorkExperience } from './ExperienceTable.svelte';
 
 // ui
 export { default as Button } from './ui/Button.svelte';

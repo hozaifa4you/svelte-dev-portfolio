@@ -1,5 +1,5 @@
 <script>
-	import { HomeSection } from '$components';
+	import { HeroSection } from '$components';
 	import AboutMeSection from '$components/sections/AboutMeSection.svelte';
 </script>
 
@@ -7,5 +7,5 @@
 	<title>Dev Portfolio - Home</title>
 </svelte:head>
 
-<HomeSection />
+<HeroSection />
 <AboutMeSection />
