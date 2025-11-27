@@ -4,7 +4,7 @@ const config: ClientConfig = {
 	projectId: 'ou0hvnfk',
 	dataset: 'production',
 	useCdn: true,
-	apiVersion: '2024-09-01'
+	apiVersion: '2025-11-27'
 };
 
 export const sanityClient = createClient(config);
