@@ -31,5 +31,8 @@
 		"typescript-eslint": "^8.20.0",
 		"vite": "^7.0.4",
 		"vite-plugin-devtools-json": "^1.0.0"
+	},
+	"dependencies": {
+		"@sanity/client": "^7.13.1"
 	}
 }
