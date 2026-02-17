@@ -1,41 +1,16 @@
 <script lang="ts">
-	interface WorkExperience {
-		jobTitle: string;
-		company: string;
-		startDate: string;
-		endDate?: string;
+	import type { DevExperience } from '../types/sanity';
+
+	interface ExperienceTableProps {
+		workExperiences: DevExperience[];
 	}
 
-	const workExperience: WorkExperience[] = [
-		{
-			jobTitle: 'Software Engineer',
-			company: 'cleverklagen',
-			startDate: '2021-03'
-		},
-		{
-			jobTitle: 'Data Scientist',
-			company: 'FootballRadar',
-			startDate: '2019-08',
-			endDate: '2020-11'
-		},
-		{
-			jobTitle: 'Data Scientist',
-			company: 'DAZN',
-			startDate: '2018-11',
-			endDate: '2019-07'
-		},
-		{
-			jobTitle: 'Data Scientist - Master Thesis',
-			company: 'FC Barcelona',
-			startDate: '2018-02',
-			endDate: '2018-08'
-		}
-	];
+	const { workExperiences }: ExperienceTableProps = $props();
 </script>
 
 <section class="default-margin work-experience mt-m">
 	<ul class="work-experience-list">
-		{#each workExperience as job}
+		{#each workExperiences as job}
 			<li class="work-item">
 				<article>
 					<h3 class="semi-bold mb-xs">{job.jobTitle}</h3>

@@ -1,10 +1,10 @@
 <script lang="ts">
-	import { page } from '$app/state';
 	import { HeroSection } from '$components';
 	import AboutMeSection from '$components/sections/AboutMeSection.svelte';
 	import type { PageProps } from './$types';
 
 	const { data }: PageProps = $props();
+	let { workExperiences } = data;
 </script>
 
 <svelte:head>
@@ -12,4 +12,4 @@
 </svelte:head>
 
 <HeroSection />
-<AboutMeSection />
+<AboutMeSection {workExperiences} />

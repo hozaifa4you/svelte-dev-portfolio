@@ -3,6 +3,13 @@
 	import image from '$assets/about-me.jpg';
 	import Button from '$components/ui/Button.svelte';
 	import { goto } from '$app/navigation';
+	import type { DevExperience } from '../../types/sanity';
+
+	interface AboutMeSectionProps {
+		workExperiences: DevExperience[];
+	}
+
+	const { workExperiences }: AboutMeSectionProps = $props();
 
 	function onclick() {
 		goto('/contact');
@@ -35,7 +42,7 @@
 		</div>
 	</div>
 
-	<WorkExperience />
+	<WorkExperience {workExperiences} />
 </section>
 
 <style>
